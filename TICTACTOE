@@ -74,6 +74,8 @@ public class TICTACTOE {
             }
 
         }
+        
+        public char getTeam1project() { return team1project;}
 
         public boolean placeteam1(int row, int col) {
 
@@ -87,4 +89,5 @@ public class TICTACTOE {
             }
             return false;
         }
+        
     }
